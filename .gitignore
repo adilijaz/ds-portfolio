@@ -1,0 +1,99 @@
+# ── Conda environments ───────────────────────────────────────────────
+.conda/
+envs/
+# Keep environment.yml (commit this to share your setup)
+!environment.yml
+
+# ── Python ────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+
+# ── Jupyter Notebooks ─────────────────────────────────────────────────
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+# Optionally strip notebook outputs before committing:
+# *.ipynb   ← uncomment if you want to exclude all notebooks
+
+# ── Data files (usually too large for git) ────────────────────────────
+data/raw/
+data/interim/
+data/processed/
+data/external/
+*.csv
+*.tsv
+*.parquet
+*.feather
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.db
+*.sqlite
+*.sqlite3
+# Keep the data folder structure
+!data/.gitkeep
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# ── Models & large outputs ────────────────────────────────────────────
+models/
+*.joblib
+*.pt
+*.pth
+*.onnx
+*.bin
+
+# ── Logs & reports ────────────────────────────────────────────────────
+logs/
+*.log
+reports/figures/
+
+# ── Virtual environments (pip/venv fallback) ──────────────────────────
+venv/
+.venv/
+env/
+.env
+
+# ── Environment variables & secrets ───────────────────────────────────
+.env
+.env.*
+*.env
+secrets.yml
+secrets.yaml
+kaggle.json
+
+# ── OS files ──────────────────────────────────────────────────────────
+.DS_Store
+.DS_Store?
+Thumbs.db
+desktop.ini
+
+# ── IDE & editor files ────────────────────────────────────────────────
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.spyderproject
+*.spyproject
+
+# ── Build & dist ──────────────────────────────────────────────────────
+build/
+dist/
+*.egg-info/
+.eggs/
+site/
+
+# ── Testing & coverage ────────────────────────────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# ── MyPy ──────────────────────────────────────────────────────────────
+.mypy_cache/
+
+commands.txt
