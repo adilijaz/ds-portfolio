@@ -97,3 +97,4 @@ htmlcov/
 .mypy_cache/
 
 commands.txt
+env_vars.sh
